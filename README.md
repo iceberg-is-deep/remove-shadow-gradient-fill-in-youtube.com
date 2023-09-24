@@ -1,2 +1,2 @@
-# remove-youtube.com-shadow-gradient-bar
-Remove youtube.com gradient bar
+# remove-youtube.com-shadow-gradient-fill
+Remove youtube.com gradient fill

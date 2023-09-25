@@ -1,0 +1,14 @@
+/* 
+remove-shadow-gradient-fill-on-youtube.com-css by Kristol-Ice 
+Version: 20230925122424 Homepage: https://github.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com
+*/
+.ytp-gradient-bottom {
+  display: none !important;
+}
+.ytp-gradient-top {
+  display: none !important;
+}
+.ytp-progress-list {
+box-shadow: 0px 0px 3px 3px rgba(102,102,102,0.5);
+background: rgba(255, 255, 255, 0.4) !important;
+}

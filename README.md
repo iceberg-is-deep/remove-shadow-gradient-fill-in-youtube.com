@@ -9,7 +9,7 @@ that's all 👌
 
 ### How to add this rules to your custom CSS rules
 - You can use this custom CSS in extension like [User CSS](https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb) or [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha).
-- paste code from [here](https://github.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com/raw/main/remove-youtube.com-shadow-gradient-fill-for-css) to support extension.
+- copy code from [here](https://github.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com/raw/main/remove-youtube.com-shadow-gradient-fill-for-css) then paste to support extension.
 
 ### Support me 😊
 - Star this repository

@@ -4,8 +4,12 @@ Remove shadow gradient fill on youtube.com
 that's all 👌
 
 ### How to add this rules to your adblocker 👍
-- AdGuard : click "Filters" > At the bottom, click "Custom" > Click "Add custom filter" > In "Enter URL or file path" enter: [this url](https://raw.githubusercontent.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com/main/remove-youtube.com-shadow-gradient-fill) > Click "Next" > Click "Subscribe"
-- uBlock Origin : Click "Filterlists"-page > scroll down and tick the box where it says: "Import" > enter: [this url](https://raw.githubusercontent.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com/main/remove-youtube.com-shadow-gradient-fill) > In the top click on "Apply Changes"
+- AdGuard : click "Filters" > At the bottom, click "Custom" > Click "Add custom filter" > In "Enter URL or file path" enter: [this url](https://raw.githubusercontent.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com/main/remove-youtube.com-shadow-gradient-fill-for-adblocker) > Click "Next" > Click "Subscribe".
+- uBlock Origin : Click "Filterlists"-page > scroll down and tick the box where it says: "Import" > enter: [this url](https://raw.githubusercontent.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com/main/remove-youtube.com-shadow-gradient-fill-for-adblocker) > In the top click on "Apply Changes".
+
+### How to add this rules to your custom CSS rules
+- You can use this custom CSS in extension like [User CSS](https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb) or [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha).
+- paste code from [here]() in support extension.
 
 ### Support me 😊
 - Star this repository

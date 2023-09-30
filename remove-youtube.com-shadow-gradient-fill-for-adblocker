@@ -1,15 +1,39 @@
 ! Title: Remove shadow gradient fill on youtube.com for adblocker by Kristol-Ice
 ! Description: Use to remove shadow gradient fill on youtube.com
-! Version: 20230925121324
+! Version: 20230930213718
 ! Expires: 30 days
 ! Download: https://raw.githubusercontent.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com/main/remove-youtube.com-shadow-gradient-fill-for-adblocker
 ! Homepage: https://github.com/Kristol-Ice/remove-youtube.com-shadow-gradient-fill
 
 !youtube remove gradient fill of top and bottom of player
-www.youtube.com##.ytp-gradient-top
-www.youtube.com##.ytp-gradient-bottom
+www.youtube.com##div.ytp-gradient-top
+www.youtube.com##div.ytp-gradient-bottom
 !youtube CSS add shadow of progress bar
-www.youtube.com#$#.ytp-progress-list {box-shadow: 0px 0px 3px 3px rgba(102,102,102,0.5);}
-www.youtube.com#$#.ytp-progress-list {background: rgba(255, 255, 255, 0.4) !important;}
+www.youtube.com#$#div.ytp-progress-list {box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.2);}
+!youtube CSS add shadow of button
+www.youtube.com#$#.ytp-svg-shadow {stroke-opacity: .3 !important;}
+!youtube CSS add shadow of time video
+www.youtube.com#$#div.ytp-time-display {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3);}
+www.youtube.com#$#div.ytp-time-display {color: white !important;}
+!youtube CSS add shadow of title in fullscreen mode
+www.youtube.com#$#a.ytp-title-fullerscreen-link {text-shadow:-1px -1px 0 rgba(0,0,0,0.3),0 -1px 0 rgba(0,0,0,0.3),1px -1px 0 rgba(0,0,0,0.3),1px 0 0 rgba(0,0,0,0.3),1px 1px 0 rgba(0,0,0,0.3),0 1px 0 rgba(0,0,0,0.3),-1px 1px 0 rgba(0,0,0,0.3),-1px 0 0 rgba(0,0,0,0.3);}
+www.youtube.com#$#a.ytp-title-fullerscreen-link {color: white !important;}
+!youtube CSS add shadow of volume handler
+www.youtube.com#$#div.ytp-volume-slider-handle {box-shadow:-1px -1px 0 rgb(180,180,180),0 -1px 0 rgb(180,180,180),1px -1px 0 rgb(180,180,180),1px 0 0 rgb(180,180,180),1px 1px 0 rgb(180,180,180),0 1px 0 rgb(180,180,180),-1px 1px 0 rgb(180,180,180),-1px 0 0 rgb(180,180,180);}
+!youtube CSS add shadow of volume slider
+www.youtube.com#$#div.ytp-volume-slider-handle::before {box-shadow:-1px -1px 1px rgb(180,180,180),0 -1px 1px rgb(180,180,180),1px -1px 1px rgb(180,180,180),1px 0 1px rgb(180,180,180),1px 1px 1px rgb(180,180,180),0 1px 1px rgb(180,180,180),-1px 1px 1px rgb(180,180,180),-1px 0 1px rgb(180,180,180);}
+!youtube CSS add shadow of chapter text
+www.youtube.com#$#.ytp-tooltip-title {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3) !important;}
+www.youtube.com#$#.ytp-tooltip-edu {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3) !important;}
+!youtube CSS add shadow of heatmap
+!www.youtube.com#$#.ytp-heat-map-path {filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));}
+www.youtube.com#$#.ytp-heat-map-svg {filter: drop-shadow(0px 0px 0px rgb(0 0 0 / 0.4));}
+!youtube CSS add shadow of chapter container
+www.youtube.com#$#.ytp-chapter-title-content {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3);}
+!youtube CSS add shadow of "Replace Mute Button With Volume Level" from "Tweaks for Youtube" extension
+www.youtube.com#$##twfyt-volume-display {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3) !important;}
+www.youtube.com#$##twfyt-volume-display {color: white !important;}
+!youtube CSS add shadow of timer marker from "YouTube Timestamps" extension
+www.youtube.com#$#div.__youtube-timestamps__stamp {box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2) !important;}
 
 !That's all

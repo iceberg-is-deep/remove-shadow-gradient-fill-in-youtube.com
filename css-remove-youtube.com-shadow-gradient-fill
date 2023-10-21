@@ -1,14 +1,31 @@
-/* 
-css-remove-youtube.com-shadow-gradient-fill by Kristol-Ice 
-Version: 20230925122424 Homepage: https://github.com/Kristol-Ice/remove-shadow-gradient-fill-on-youtube.com
-*/
-.ytp-gradient-bottom {
-  display: none !important;
-}
-.ytp-gradient-top {
-  display: none !important;
-}
-.ytp-progress-list {
-box-shadow: 0px 0px 3px 3px rgba(102,102,102,0.5);
-background: rgba(255, 255, 255, 0.4) !important;
-}
+div.ytp-gradient-top {display: none !important;}
+div.ytp-gradient-bottom {display: none !important;}
+
+div.ytp-progress-list {box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.2);}
+
+.ytp-svg-shadow {stroke-opacity: .3 !important;}
+
+div.ytp-time-display {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3);}
+div.ytp-time-display {color: white !important;}
+
+a.ytp-title-fullerscreen-link {text-shadow:-1px -1px 0 rgba(0,0,0,0.3),0 -1px 0 rgba(0,0,0,0.3),1px -1px 0 rgba(0,0,0,0.3),1px 0 0 rgba(0,0,0,0.3),1px 1px 0 rgba(0,0,0,0.3),0 1px 0 rgba(0,0,0,0.3),-1px 1px 0 rgba(0,0,0,0.3),-1px 0 0 rgba(0,0,0,0.3);}
+a.ytp-title-fullerscreen-link {color: white !important;}
+
+div.ytp-volume-slider-handle {box-shadow:-1px -1px 0 rgb(180,180,180),0 -1px 0 rgb(180,180,180),1px -1px 0 rgb(180,180,180),1px 0 0 rgb(180,180,180),1px 1px 0 rgb(180,180,180),0 1px 0 rgb(180,180,180),-1px 1px 0 rgb(180,180,180),-1px 0 0 rgb(180,180,180);}
+
+div.ytp-volume-slider-handle::before {box-shadow:-1px -1px 1px rgb(180,180,180),0 -1px 1px rgb(180,180,180),1px -1px 1px rgb(180,180,180),1px 0 1px rgb(180,180,180),1px 1px 1px rgb(180,180,180),0 1px 1px rgb(180,180,180),-1px 1px 1px rgb(180,180,180),-1px 0 1px rgb(180,180,180);}
+
+.ytp-tooltip-title {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3) !important;}
+.ytp-tooltip-edu {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3) !important;}
+
+.ytp-heat-map-path {filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));}
+.ytp-heat-map-svg {filter: drop-shadow(0px 0px 0px rgb(0 0 0 / 0.4));}
+
+.ytp-chapter-title-content {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3);}
+
+#twfyt-volume-display {text-shadow:-1px -1px 1px rgba(0,0,0,0.3),0 -1px 1px rgba(0,0,0,0.3),1px -1px 1px rgba(0,0,0,0.3),1px 0 1px rgba(0,0,0,0.3),1px 1px 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3),-1px 1px 1px rgba(0,0,0,0.3),-1px 0 1px rgba(0,0,0,0.3) !important;}
+#twfyt-volume-display {color: white !important;}
+
+div.__youtube-timestamps__stamp {box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2) !important;}
+
+div.heatmapBar {box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2) !important;}
